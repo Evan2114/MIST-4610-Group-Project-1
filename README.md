@@ -70,6 +70,26 @@ The Guests entity indicates the guests that members can bring alongside them, co
 
 ![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Feature%20List.png)
 
+1. Query 1 lists what tournaments that do not have any employees assigned to work.
+
+2. Query 2 lists all the equipment in used condition and the price needed to replace them.
+
+3. Query 3 displays the ID and quantity in stock of items in the pro shop ordered by highest to lowest sales.
+
+4. Query 4 lists all members and their total expenses, which includes membership fees and equipment rentals. The results are grouped by member and sorted in descending order of total expenses.
+
+5. Query 5 retrieves the names of all members who have booked tee times in the last 30 days, and displays the number of tee times they have booked.
+
+6. Query 6 lists the instructor names and their certification level only for those instructors whose members have played in 1 or less tournament.
+
+7. Query 7 calculates the occupancy rate for the entire country club by considering all tee times.
+
+8. Query 8 determines the top 3 members who have hosted the most events at the country club.
+
+9. Query 9 retrieves the names of all members who have booked at least one tee time but have not hosted any events.
+
+10. Query 10 retrieves the IDs and par ratings of all courses. The results are ordered from least to most difficult.
+
 ## Database Information
 Name of the database: ns_F2339217Group8
 
