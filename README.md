@@ -68,7 +68,7 @@ The Guests entity indicates the guests that members can bring alongside them, co
 
 ## Queries
 
-![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Feature%20List.png)
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Feature%20Table.png)
 
 1. Query 1 lists what tournaments that do not have any employees assigned to work.
 
