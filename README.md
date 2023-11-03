@@ -1,4 +1,4 @@
-# Team 8 MIST-4610-Group-Project-1
+# Team 8 MIST 4610 Group Project 1
 
 ## Team Name
 39217 Group 8
