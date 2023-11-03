@@ -33,6 +33,37 @@ The Guests entity indicates the guests that members can bring alongside them, co
 
 ## Data Dictionary
 
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Courses.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Employees.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Equipment.png))
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Events.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/GolfCarts.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/GuestBookings.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Guests.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Instructors.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/MemberBookings.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/MemberEvents.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Members.png)
+
+[!Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Memberships.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Member%20Tournaments.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/ProShop.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/TeeTimes.png)
+
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Tournaments.png)
 
 ## Ten Queries
 
