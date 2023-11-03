@@ -4,10 +4,10 @@
 39217 Group 8
 
 ## Team Members
-1. Ryan Alford
-2. Khushi Patel
+1. Ryan Alford [@Axeophone](https://github.com/Axeophone)
+2. Khushi Patel 
 3. Evan Andersen [@Evan2114](https://github.com/Evan2114)
-4. Elizabeth Carlin
+4. Elizabeth Carlin [@elizabethcarlin](https://github.com/elizabethcarlin)
 5. Ethan Bowen [@EthanB57](https://github.com/EthanB57)
 6. Purvi Nandakumar
 
