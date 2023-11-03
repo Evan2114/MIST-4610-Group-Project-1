@@ -9,7 +9,7 @@
 3. Evan Andersen [@Evan2114](https://github.com/Evan2114)
 4. Elizabeth Carlin [@elizabethcarlin](https://github.com/elizabethcarlin)
 5. Ethan Bowen [@EthanB57](https://github.com/EthanB57)
-6. Purvi Nandakumar
+6. Purvi Nandakumar [DISCLAIMER] - Our team member is currently out of the country and does not have access to any communcication with us, so we do not currently have her GitHub link. However, she was involved in the project in the earlier stages and did contribute in anticipation of her trip.
 
 ## Problem Description
 The relevant situation is that our client, the owner and chairman of Srini's Country Club, Dr. Nikhil Srinivasan, needed a relational database to track important data for his growing business. The central entity in the model is the Members entity because the members drive the revenue and activities of the entire business. The Members entity is directly tied to the Equipment, Guests, Memberships, and Instructors entities and associatively related to TeeTimes, Tournaments, and Events. We are interested in modeling these essential relationships, generating dummy data, and infusing the entities and their attributes with the corresponding data points. Most importantly, we intend to create multiple queries that provide crucial insights into Srini's Country Club, particularly data points linked to the Members, with the goal of identifying which areas of the business to optimize in the future.
@@ -26,9 +26,27 @@ As depicted via the screenshots, Dr. Srinivsan provided us with 18 components an
 
 Explanation of data model:
 
+In the process of creating our database, we made a few changes to Attribute and Entity Names as well as Data Types. Initially, we created our Primary Keys to be of the VARCHAR(6) data Type but for functionality purposes we increased the character count to 25 across the board. Generic Attribute names like “Name”, “Date”, “Contact information”, “Description”, and others that were given to us by the client are not useful and so in most cases, we appended the table name to the front of the attribute name. In some cases, we also split up a request attribute into two attributes, as storing multiple pieces of data in the same column breaks normal form conventions. Our client did seem to think that names and contact information could be stored in single entities, however with brief edits, the database became much more functional, readable, and intuitive. To give an example “name” was a desired attribute for the “Guest” entity but was also requested in several other entities, so we created guestFName and guestLname for the guest table, and distinctly labeled *TableName*_Name attributes for the other entities. We also decided to rename some entities from what the client requested. Namely, the word Golf was removed from many of the attributes both to save space and to increase readability (users won't have to look at which “Golf” Entity they are looking at if they don’t start with that word).
+-Golf Tournaments was changed to “Tournaments”
+-Pro Shop Items was changed to “ProShop”
+-Golf Instructors was changed to “Instructors”
+-Rental Equipment was changed to “Equipment”
+
 Our model is based on the structure of Dr. Srinivasan's "Srini's Country Club". The primary entity is the Members entity. This entity contains all the necessary identifying data points of members, including a member specific memberID as the primary key, different contact information, member join date, and foreign keys from other tables that establish links to the Instructors and Memberships tables. Also, Members have a many-to-many relationship with TeeTimes because members can book multiple tee times, and each tee time can consist of multiple members. Thus, Members and TeeTimes create an associative entity, both having identifying relationships with the MemberBookings table since both primary keys comprise the composite primary key.
 
-The Guests entity indicates the guests that members can bring alongside them, containing similar attributes to the Members entity. Members have a one-to-many relationships with Guests because members can bring along many guests, and it is a non-identifying relationship because guests do not have to be associated with just one member. Guests also have a many-to-many relationship with the TeeTimes table
+The Guests entity indicates the guests that members can bring alongside them, containing similar attributes to the Members entity. Members have a one-to-many relationships with Guests because members can bring along many guests, and it is a non-identifying relationship because guests do not have to be associated with just one member. Guests also have a many-to-many relationship with the TeeTimes table because guests can go to multiple TeeTimes and TeeTimes can contain a multitude of guests.
+
+TeeTimes are, of course, associated with our golf courses which we store information about difficulty, length, and a brief description of each course. We wouldn’t want our members to not know what they are signing up for.Tee Times are also associated with our Golf carts which are optionally allowed to be assigned to each booking. Not all Caddies wish to have a cart, but many do and therefore it’s important that we track the status of each cart both with regard to its rental status and its condition. 
+
+Alongside Members and Guests, another crucial pillar of our golf club is the equipment we have on hand for use by club members. This includes everything you might need to play the game and as such we’ve given each piece of equipment and ID, a name, a rental price, and a quantity we have in stock at a given time. We also track the equipment’s condition at a given time as the last thing we’d want to do is give our members shoddy equipment. 
+
+Equipment available for rental is often also for sale in the ProShop albeit at a different price. For ProShop items that are also equipment, we have a one-to-many relationship documented such that we don’t store redundant data. 
+
+Our members also receive top-notch instruction from our club’s on-staff instructors. As such we track identifying information about our instructors as well as their certification level and specialties. These instructors, though they work in one-on-one sessions, can be assigned to more than one member at a time and therefore we’ve modeled that relationship.
+
+Members may also participate in two other categories of events that we track data for Tournaments and Events. Tournaments are the lifeblood of a proper golf club, and we track extensively the name, date, entry fees, and type of each of these competitive events. Our non-tournament events, like parties, cooperate retreats, or other such events are similarly tracked but a separate distinction was given to them as they have much wider variation than tournaments. Still, though we track many of the same attributes as tournaments with the distinction that most of these events don’t have an entry fee. 
+
+And of course, we wouldn’t be a proper country club without the staff to facilitate our events and tournaments. Associated with both of the aforementioned entities in the same capacity, our employees are assigned on an event-to-event basis. Those not assigned to events are either off work or work a job that does not include facilitating such things. As such we store identifiable information, hire date, job title, and contact information for all of our employees. 
 
 ![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Data%20Model.png)
 
