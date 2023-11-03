@@ -28,3 +28,11 @@ Explanation of data model: An explanation of the data model including the relati
 Our model is based on the structure of Dr. Srinivasan's "Srini's Country Club". The primary entity is the Members entity. This entity contains all the necessary identifying data points of members, including a member specific memberID as the primary key, different contact information, member join date, and foreign keys from other tables that establish links to the Instructors and Memberships tables. Also, Members have a many-to-many relationship with TeeTimes because members can book multiple tee times, and each tee time can consist of multiple members. Thus, Members and TeeTimes create an associative entity, both having identifying relationships with the MemberBookings table since both primary keys comprise the composite primary key.
 
 The Guests entity indicates the guests that members can bring alongside them, containing similar attributes to the Members entity. Members have a one-to-many relationships with Guests because members can bring along many guests, and it is a non-identifying relationship because guests do not have to be associated with just one member. Guests also have a many-to-many relationship with the TeeTimes table
+
+![Alt Text] (https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Data%20Model.png)
+
+
+## Database Information
+Name of the database: ns_F2339217Group8
+
+Additional information: Each query listed above is indicated in the database using stored procedures which can be called using the following format: CALL TP_Qx();
