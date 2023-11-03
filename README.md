@@ -113,4 +113,4 @@ Query 10 is important because in a situation where one of our employees is asked
 ## Database Information
 Name of the database: ns_F2339217Group8
 
-Additional information: Each query listed above is indicated in the database using stored procedures which can be called using the following format: CALL TP_Qx();
+Additional information: Each query listed above is indicated in the database using stored procedures which can be called using the following format: "CALL TP_Qx();" The 'x' indicates which query you intend to seek the results from.
