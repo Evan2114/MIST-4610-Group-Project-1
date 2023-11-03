@@ -6,7 +6,7 @@
 ## Team Members
 1. Ryan Alford
 2. Khushi Patel
-3. Evan Andersen
+3. Evan Andersen [@Evan2114] 
 4. Elizabeth Carlin
 5. Ethan Bowen
 6. Purvi Nandakumar
