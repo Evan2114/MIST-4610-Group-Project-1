@@ -8,7 +8,7 @@
 2. Khushi Patel
 3. Evan Andersen [@Evan2114](https://github.com/Evan2114)
 4. Elizabeth Carlin
-5. Ethan Bowen
+5. Ethan Bowen [@EthanB57](https://github.com/EthanB57)
 6. Purvi Nandakumar
 
 ## Problem Description
