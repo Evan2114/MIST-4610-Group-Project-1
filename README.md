@@ -18,9 +18,10 @@ The relevant situation is that our client, the owner and chairman of Srini's Cou
 
 Explanation of client conversations:
 
-As depicted via the screenshots, Dr. Srinivsan provided us with 18 components and services involved in his businesses, and described them in immense detail. These components are the entities in the relational data model below. Additionally, Dr. Srinivsan went into further detail about the attributes and primary keys within each entity, as well as the relationships between multiple entities. These conversations were essential in our creation of the complex data model.
+As depicted via the screenshots, Dr. Srinivsan provided us with 18 components and services involved in his businesses, and described them in immense detail. These components are the entities in the relational data model below. Additionally, Dr. Srinivsan went into further detail about the attributes and primary keys within each entity, as well as the relationships between multiple entities. These conversations were essential in our creation of the complex data model. Moving forward, we decided to omit two of the components ("Inventory" and "Restaurants") because they were less relevant to the primary Members entity and were not utilized in our queries. 
 
-![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Conversation%201.png)![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Conversation%202.png)
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Conversation%201.png)
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Conversation%202.png)
 ![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Conversation%203.png)
 
 Explanation of data model:
