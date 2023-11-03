@@ -29,7 +29,7 @@ Our model is based on the structure of Dr. Srinivasan's "Srini's Country Club". 
 
 The Guests entity indicates the guests that members can bring alongside them, containing similar attributes to the Members entity. Members have a one-to-many relationships with Guests because members can bring along many guests, and it is a non-identifying relationship because guests do not have to be associated with just one member. Guests also have a many-to-many relationship with the TeeTimes table
 
-![Alt Text] (https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Data%20Model.png)
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Data%20Model.png)
 
 
 ## Database Information
