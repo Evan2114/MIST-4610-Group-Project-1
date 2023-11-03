@@ -52,6 +52,8 @@ And of course, we wouldn’t be a proper country club without the staff to facil
 
 ## Data Dictionary
 
+***GENERAL NOTE: We already populated our tables with data, so we were unable to change the internal database to match the data dictionary/data model. However, for each table with an ID code, the table in mySQL reflects VARCHAR(25) instead of VARCHAR(6) expressed in the data dictionaries/data model. The reasoning for this is that we wanted to add extra leeway for Dr. Srinivasan and his database in case the ID numbers needed to expand with the acquisition of new members.
+
 ![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Courses.png)
 
 ![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Employees.png)
