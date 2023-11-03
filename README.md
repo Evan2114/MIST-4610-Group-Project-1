@@ -68,7 +68,7 @@ The Guests entity indicates the guests that members can bring alongside them, co
 
 ## Ten Queries
 
-![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Feature%20Table.png)
+![Alt Text](https://github.com/Evan2114/MIST-4610-Group-Project-1/blob/main/Feature%20List.png)
 
 ## Database Information
 Name of the database: ns_F2339217Group8
